@@ -1,13 +1,12 @@
 html{
   font-size:16px;
- 
 }
 *{  margin:0;
     padding:0;
 }
 
 body{
-  background: url("/images/car.jpg");
+  background: url("/images/4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -20,12 +19,11 @@ body{
     
     .navbar ul{
       font-size: 1.75rem;
-        /* margin-top: -10rem; */
         height: 2rem;
         display: flex;
         align-items: center;
         list-style: none;
-        /* color:rgb(200, 20, 20); */
+        
     }
     
     .navbar ul li{
@@ -109,36 +107,6 @@ input[type=submit]:hover {
   background-color: rgb(247, 241, 241)d;
 }
 
-/* .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-.col-size {
-  float: left;
-  width: 4rem;
-  margin-top: 6px;
-}
-
-.col-space {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-} */
-row-feed:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.carousel-img{
-  padding: 10rem;
-  border-radius: 1em;
-}
-
-
-
 
 /* @media (min-width: 576px) {
     .container {
@@ -151,7 +119,6 @@ row-feed:after {
 
  .footer{
     background:rgb(6, 63, 95);
-    /* padding:30px 0px; */
     height: 18rem;
     width: 100%;
     text-align:center;
