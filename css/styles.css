@@ -1,9 +1,18 @@
 html{
   font-size:16px;
+ 
 }
 *{  margin:0;
     padding:0;
 }
+
+body{
+  background: url("/images/car.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .navbar{
     background:rgb(6, 63, 95);
     position: sticky;
@@ -100,7 +109,7 @@ input[type=submit]:hover {
   background-color: rgb(247, 241, 241)d;
 }
 
-.container {
+/* .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
@@ -116,14 +125,17 @@ input[type=submit]:hover {
   float: left;
   width: 75%;
   margin-top: 6px;
-}
+} */
 row-feed:after {
   content: "";
   display: table;
   clear: both;
 }
 
-
+.carousel-img{
+  padding: 10rem;
+  border-radius: 1em;
+}
 
 
 
@@ -137,11 +149,10 @@ row-feed:after {
 
 
 
-
- footer{
+ .footer{
     background:rgb(6, 63, 95);
     /* padding:30px 0px; */
-    height: 10rem;
+    height: 18rem;
     width: 100%;
     text-align:center;
     margin-bottom: 0;
