@@ -116,6 +116,15 @@ input[type=submit]:hover {
   }
    */
 
+.bi{
+position: fixed;
+right: 5%;
+bottom: 5%;
+
+}
+
+
+
  .footer{
     background:rgb(6, 63, 95);
     height: 18rem;
