@@ -75,27 +75,6 @@ body{
 .carousel-img-size{
   padding:10em;
 }
-/* .sfpics{
-  height: 60rem;
-} */
-
-
- /* @media (max-width: 768px) {
-    .hamburger {
-      display: block;
-      padding: 1rem;
-    }
-  
-    .hamburger.active .bar:nth-child(2) {
-      opacity: 0;
-    }
-    .hamburger.active .bar:nth-child(1) {
-      transform: translateY(8px) rotate(45deg);
-    }
-    .hamburger.active .bar:nth-child(3) {
-      transform: translateY(-8px) rotate(-45deg);
-    }
-} */
 
 
 input[type=submit] {
