@@ -1,5 +1,6 @@
 html{
   font-size:16px;
+
 }
 
 *{  margin:0;
@@ -42,7 +43,7 @@ body{
         transition: transform .5s ease-in-out, color .6s ease-out;*/
         text-decoration:none;
         color:rgb(21, 22, 22);
-    transition:0.5s; 
+        transition:0.5s; 
      /*transition: transform .5s ease-in-out, color .6s ease-out; */
     }
 
@@ -64,11 +65,16 @@ body{
   object-position: center;
 }
 
+
 .carousel-words{
   z-index: 2;
   position: sticky;
 }
 
+
+.carousel-img-size{
+  padding:10em;
+}
 /* .sfpics{
   height: 60rem;
 } */
